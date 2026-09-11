@@ -8,6 +8,7 @@ class Solution {
         char[] merged = new char[length1 + length2];
 
         int i = 0, j = 0;
+        
         while (i < length1 && j < length2) {
             merged[i + j] = char1[i];
             i++;
