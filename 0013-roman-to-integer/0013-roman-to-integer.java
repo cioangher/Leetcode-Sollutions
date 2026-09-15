@@ -17,7 +17,7 @@ class Solution {
             int current = roman.get(s.charAt(i));
 
             if (i < s.length() - 1 && current < roman.get(s.charAt(i + 1))) {
-                total =total - current;
+                total = total - current;
             } else {
                 total = total + current;
             }
